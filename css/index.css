@@ -763,7 +763,7 @@ body::before {
   background-color: #333;
 }
 .header-inner--height {
-  height: 0px !important;
+  height: 30px !important;
 }
 .header-nav {
   position: relative;
@@ -771,7 +771,7 @@ body::before {
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 0px;
+  height: 30px;
   -webkit-transition: -webkit-transform 0.2s ease-out, background-color 0.2s ease;
   -moz-transition: -moz-transform 0.2s ease-out, background-color 0.2s ease;
   -o-transition: -o-transform 0.2s ease-out, background-color 0.2s ease;
@@ -827,7 +827,7 @@ body::before {
 .header-nav-menubtn {
   display: none;
   padding: 0 0.5rem;
-  line-height: 0px;
+  line-height: 30px;
   color: #f5f6f7;
   cursor: pointer;
 }
@@ -869,13 +869,13 @@ body::before {
 .header-nav-menu {
   display: none;
   height: 100%;
-  line-height: 0px;
+  line-height: 30px;
 }
 .header-nav-menu-item {
   float: left;
   position: relative;
   margin: 0 1rem 0 0;
-  height: 0px;
+  height: 30px;
   text-align: center;
   cursor: pointer;
 }
@@ -911,7 +911,7 @@ body::before {
   float: right;
   padding: 0 0.5rem;
   height: 100%;
-  line-height: 0px;
+  line-height: 30px;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
@@ -935,7 +935,7 @@ body::before {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.1);
 }
 .header-banner-info {
   position: absolute;
@@ -1223,7 +1223,7 @@ body::before {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0,0,0,0.1);
 }
 .footer a {
   color: #c20808;
@@ -2720,7 +2720,7 @@ body::before {
   .header-nav-menu {
     overflow: hidden;
     position: absolute;
-    top: 0px;
+    top: 30px;
     right: 0;
     left: 0;
     width: auto;
